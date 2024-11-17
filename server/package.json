@@ -1,0 +1,53 @@
+{
+  "name": "@the-z-files/server",
+  "version": "0.1.8",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ./scripts/dev-script.js",
+    "dev:monorepo": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cacheable/node-cache": "^1.4.2",
+    "@lens-protocol/client": "^2.0.0",
+    "@lighthouse-web3/sdk": "0.2.3",
+    "@semaphore-protocol/group": "^4.5.0",
+    "@semaphore-protocol/identity": "^4.5.0",
+    "@semaphore-protocol/proof": "^4.5.0",
+    "@vercel/kv": "^1.0.1",
+    "@xmtp/frames-validator": "^0.6.1",
+    "@xmtp/message-kit": "^1.1.7-beta.26",
+    "clsx": "^2.1.0",
+    "frames.js": "^0.19.4",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0",
+    "viem": "^2.21.45"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "devDependencies": {
+    "@frames.js/debugger": "^0.3.16",
+    "@types/node": "^18.17.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.0.1",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "is-port-reachable": "^4.0.0",
+    "node-loader": "^2.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
+}
